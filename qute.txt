@@ -1,0 +1,2 @@
+url.searchengines:
+{"DEFAULT": "https://duckduckgo.com/?q={}", "g": "https://www.google.com/search?q={}", "m": "https://www.mojeek.com/search?q={}", "s": "https://searx.info/search?q={}"}
