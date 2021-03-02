@@ -1,0 +1,3 @@
+udisksctl mount -b /dev/`lsblk -r |grep G | grep part | grep -v / | cut -d\  -f1`
+udisksctl unmount -b /dev/`lsblk -r | grep media | cut -d\  -f1`
+

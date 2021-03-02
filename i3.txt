@@ -1,8 +1,14 @@
 # vim like movement:
 replace all +j,k,l,semicolon with +h,j,k,l
+
 # Hebrew
 exec_always "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
+
 # redshift
 exec --no-startup-id "redshift-gtk"
+
 # HDMI sound
 #exec_always "pacmd set-card-profile 0 output:hdmi-stereo"
+
+#interactive screenshot by pressing printscreen
+bindsym Print exec gnome-screenshot -i 
